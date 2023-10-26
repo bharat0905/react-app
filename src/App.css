@@ -1,0 +1,226 @@
+
+/* container */
+.left_container {
+    width: 66.95%;
+    float: left;
+    /* to enable dark mode for tile map */
+    --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+
+}
+
+.right_container {
+  background-color: blanchedalmond;
+  width: 33%;
+  height:100vh;
+  float: right;
+}
+
+
+/* to give table shape */
+.container_table {
+  border: 1px solid ;
+  box-shadow: #282c34;
+  width: 500px;
+  height: 250px;
+  overflow: auto;
+  border-collapse: collapse;
+}
+
+/* column color and text align */
+.container_table thead tr {
+  background-color: green;
+  color: white;
+  text-align: left;
+}
+/* to set column width and padding */
+.container_table th td {
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+/* for each cell border */
+.container_table tbody tr {
+  border-bottom: 2px solid #dddd;
+
+}
+
+/* to color every second row  */
+.container_table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* to color last row in the table */
+.container_table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.customMarker{
+  fill: none;
+  stroke: red;
+  stroke-width: 5px;
+}
+
+
+.home {
+  height: 20%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  color: gold;
+  border: 5px solid pink;
+  border-radius: 0px;
+  transition: transform 0.3s ease 0s;
+}
+
+.home:hover{
+  transform: translateY(-10px);
+}
+
+
+
+/* SearchTable.jsx styling */
+
+.searchbox_style {
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  text-align: center;
+  border:5px #009879;
+  border-radius: 10%;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  .map-tiles {
+      filter:var(--map-tiles-filter, none);
+}
+}
+
+.selected {
+  color: red;
+}
+
+
+
+
+/* search bar */
+
+.search-form {
+position: relative;
+left: 44%;
+width: 3.75rem;
+height: 3.75rem;
+border-radius: 999px;
+background-color: whitesmoke;
+box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+padding: 0.75rem;
+transition: width 0.5s;
+}
+
+.search-input {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  padding-left: 1rem;
+  font-size: small;
+  pointer-events: none;
+}
+
+.search-button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  background-color: #059669;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.search-icon,
+.search-close {
+  position: absolute;
+  font-size: 1.25rem;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-close {
+  opacity: 0;
+}
+
+/* Active Search */
+
+.active-search {
+  max-width: 100%;
+  width: 20rem;
+  left: 10%;
+}
+
+.active-search .search-button {
+  left: calc(100% - 2rem);
+}
+
+.active-search .search-input {
+  pointer-events: initial;
+}
+
+.active-search .search-close {
+  opacity: 1;
+}
+
+.active-search .search-icon {
+  opacity: 0;
+}
+
+

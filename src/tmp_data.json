@@ -1,0 +1,630 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Analyst",
+        "job_type": "Full-time",
+        "company": "City of Fernie",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Technician",
+        "job_type": "Full-time",
+        "company": "Hamilton",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "Map Expert",
+        "job_type": "Full-time",
+        "company": "Dhuram",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Technologist",
+        "job_type": "Full-time",
+        "company": "Peterborough",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Engineer",
+        "job_type": "Full-time",
+        "company": "Toronto",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Developer",
+        "job_type": "Full-time",
+        "company": "Calgary",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Web Develepor ",
+        "job_type": "Full-time",
+        "company": "City of Fernie",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Web Application",
+        "job_type": "Full-time",
+        "company": "Brant",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Technologist",
+        "job_type": "Full-time",
+        "company": "London",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Technologist",
+        "job_type": "Full-time",
+        "company": "City of Fernie",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Technologist",
+        "job_type": "Full-time",
+        "company": "Waterloo",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.062867,
+          49.5041747
+        ]
+      },
+      "properties": {
+        "title": "GIS Technologist",
+        "job_type": "Full-time",
+        "company": "City of Fernie",
+        "salary": null,
+        "schedule": null,
+        "location": "Fernie, BC",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Assemble technical data, analyze, and prepare statistical reporting to support internal and external information reporting requirements.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=d092225a59227b05&fccid=5539982e39c3b896&vjs=3",
+        "lat": 49.5041747,
+        "long": -115.062867,
+        "imp": "0.5623132844147437"
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9421751,
+          43.87982
+        ]
+      },
+      "properties": {
+        "title": "SENIOR PLANNER & ACCOMMODATIONS COORDINATOR",
+        "job_type": "Full-time",
+        "company": "Durham District School Board",
+        "salary": "$87,929â€“$102,878 a year",
+        "schedule": null,
+        "location": "Whitby, ON",
+        "date_posted": "Posted 10 days ago",
+        "summary": "Oversees the implementation and administration of the Education Development Charges (EDC) program. Manages data of current and long-term accommodationâ€¦",
+        "apply_link": "https://ca.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0DMi9GGe8s-mbx5NbxnaUn155jL90Qz4VQGSIAgzaoyU6sBsFOcQtrtvdzq4I3Z0AS_IrNiqT1YJKWONyZmR94U8OmUn_DtKU2w8ohSjw2rTXOZNUsI14SK-VCnaropwY04cy6YfiZ50ozOCTmBoOd1spTk7o60gz1oEh2ZdFvGihBwU5lJHe7L8dbQPp2QxBlLUxj16QRx-BZ8ldETkYjwgfhbZijr1fI5Xp-J4-7EMYsTDtWL9MHv962smXuACKrb_Gkm7RvNANn2bpHINo2bUzbqzdjG2ziUXT_ZFHgQOCfA89OhX4J4szQAMIXm-rlQMIv-hQONxbHOkDns7fXuOJJt6wpNOphSvvQhS91rj1CRaRIDakwvfeT9xai2UJKxXhKvFI3sYOp--QeaE7EiXOBPAlAJrGWQ4br25Hg5m6f_6fhodWelEKx_cOaUT4R57wwCfWoWMKCFfkMGW-SfjLgQUKW5w_c2lKpMXZBu53Tfl6iETLnb_9DD1ic01CYbVryEM3QLDQO64ZROaUfEFU4kuu_QVDj0F84m2EbdlShPD0hCoYe-piCfR4oRJ33VcRVxlefSwXEJDyuUdikSAT5fNe5yVt1EO_4L9MqGDbuGFrZK_sQotse9KEV4vYB2pdzeOPdIew==&xkcb=SoBI-_M3MVHLEFxyqh0KbzkdCdPP&p=0&fvj=0&vjs=3",
+        "lat": 43.87982,
+        "long": -78.9421751,
+        "imp": "0.642671197405684"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.720386,
+          68.3602632
+        ]
+      },
+      "properties": {
+        "title": "Wildlife Biologist",
+        "job_type": null,
+        "company": "Gwich'in Renewable Resources Board",
+        "salary": "From $90,630 a year",
+        "schedule": null,
+        "location": "Inuvik, NT",
+        "date_posted": "EmployerActive 12 days ago",
+        "summary": "The GRRB is currently seeking a motivated full-time Wildlife Biologist. This position is responsible for wildlife management, research, technical advice,â€¦",
+        "apply_link": "https://ca.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0AJICiIDg33cVXJ7otxgeBkwfc7-HONzhT63yMhbatjzrJ_Q3H9PrB_u_XGO8XItjQo-LFMwSOYkOtd27AlSrje8ob4Wp1xIAD6YauxuagSZ5QBcJWTKRD5jr_cFU5hijxXfl1bQXMzO6YcpJef3UP1ZNBRgJxj91HUYhWDRuZa7j4fXNuIxJm1uIIh0Pw3LqwzULC7yIxMVp8PVPSGT6NQwDdpNuBXU3VgqFn3xeIz37f2a5XA6znx83NBBtEfg1I8zIQCQ86zA4V71fchdSgugKb3GzGtpWa0bQHSlYWTWtV8U0qgCi5cWvxh6oAVbFU8BvSfeJ69gYkSzb8afeVoHFIHu3REb9pdEBbWTLbr1Fx2tj8XxVjhRxqPigfZov-J5C7Q3JhkRtev1I24Uf7ErukskdBLFQ-D-Eh5V5SG_wpn8eUU45vmiiydR8GIhZnlKVuTrdpDptkGu6fQy8818tlFT98s4UyMA4l5Y79DYxLfWBNAqYH-&xkcb=SoDV-_M3MVHLEFxyqh0JbzkdCdPP&p=1&fvj=1&vjs=3",
+        "lat": 68.3602632,
+        "long": -133.720386,
+        "imp": "0.6204282623966982"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9714,
+          80.4953
+        ]
+      },
+      "properties": {
+        "title": "Junior GIS Specialist",
+        "job_type": "Full-time",
+        "company": "GEI Consultants Inc",
+        "salary": null,
+        "schedule": null,
+        "location": "Hybrid remote in Markham, ON",
+        "date_posted": "Posted 4 days ago",
+        "summary": "A regular full-time position (40 hours) with a focus on GIS analysis, data management, map production, field data collection surveys, and web GIS configurationâ€¦",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=242387f94d0f4eed&fccid=908bc786b906bc2f&vjs=3",
+        "lat": 80.4953,
+        "long": -48.9714,
+        "imp": "Not found"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8925908,
+          43.0059455
+        ]
+      },
+      "properties": {
+        "title": "GIS Specialist",
+        "job_type": null,
+        "company": "Agilus Work Solutions",
+        "salary": "$33 an hour",
+        "schedule": "Fixed term contract",
+        "location": "Remote",
+        "date_posted": "EmployerActive 3 days ago",
+        "summary": "Agilus is recruiting for a GIS Specialist in the Healthcare Services industry. GIS data cleansing, updating locations, manipulating data.",
+        "apply_link": "https://ca.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0CjuD1H6leeVvlXks_7kYg_LJPU17N-331pdWEF0oAmN805AasZprjHuo6XTnENF81VPGwjZRckwyM_sAj8EPO6EkL3LR0GeylfL4z33lwMXLhOEEt3duk11sAmQX7NY3PePLy6SDbfrvvC8I0qUrRi6ewBRE7k8-LXpz_odbcVd8pf-siJpHBBTaAaPFyaKQLKvCJ-DyCDsCmFubpNS16uTSiem_KJm03b-Hby5b5V3H8pWkwV-1RiDgGPgkAp0eUdtccmmhsIuMNuS9Npx1DxQACE3ZfcZa0AHVUlBZTrg0tllXvN3cLY1Q-s46wo_HF1m64fz9XVkqkX-CYV5ZFjlYF6lwGfZUaKrgKbTfXD1J2lkj70Fx7YsN4nFtz_wOTAVpr_qJ5QFS9QMeTYcICG2ra6ZxXcCXO8oGxYVDFSbuk-cAnbFRyHGf4gp-jRAKe7qvu60ae_ntkUbPEtUvK5-rPHzhABJlbqIz9ft_ojLepjmOyUkk8EPHmHBvAPEymkmZ3KP0YFu5dJ8ptyum6fm64va_QZzns=&xkcb=SoDv-_M3MVHLEFxyqh0PbzkdCdPP&p=3&fvj=1&vjs=3",
+        "lat": 43.0059455,
+        "long": -123.8925908,
+        "imp": "0.39131173061162206"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9714,
+          80.4953
+        ]
+      },
+      "properties": {
+        "title": "Geographic Information Systems (GIS) & Portfolio Insights Analyst (Hybrid)",
+        "job_type": "Full-time",
+        "company": "The Career Foundation",
+        "salary": null,
+        "schedule": null,
+        "location": "Hybrid remote in Vaughan, ON",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "The Geographic Information Systems (GIS) & Portfolio Insights Analyst's primary function is to support the Market Development Director and the broader Realâ€¦",
+        "apply_link": "https://ca.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0BXre_QLwVL4pjrr70-rSVmbMycXuqEIluf94tfga7j5JQODbOl-s3vdgES2RO9ngWj2xKnrt3vsg5k7eGAcO0QOc55-XL_gw8UnOQTrpN2IsjlCsiWwC_GLB5kl-ch7Wc4QK10M-2dZCVo6B2oXiE1Rv1txM8lAshrF__QA0gn5hp7QVV8eDelptpD2daDJyVrrVtFVGU_MjHLF3Qi0LsQULL9U7HlgOIoAOSjDv7M8d3Iz52WbM3_dvQs_yHSuYyq6H642uomGSqQtZmHFJxWTywIITznhL13sjztJmKuhTGtsrWomQ3AlahUp_98g6EStFVAxUWJ9VyKKrnlSM5avgMLcx2pKUVNfdmivDmiC-w4WO0bQ9NWRYHaQWoG62sReX2_vynkZxB5g5aWcrKj28IjRMdNdmWhUlLHk8eqRLo9lThfMqMQ9kS488G2HmK63Aljs_BQ-VzcBoc4baGPFlAcgDiooOFv1NkahA8KOmL7OldiWV5jGMK0RJJWjXp_cUXKFP63QVWJjYa-b8gqyZOsBxX_xAVqcCtyKWkufUq6FFIP0JD9sBqUtsa6KdDza4EycK1V-R1MUeUXGgEC&xkcb=SoBb-_M3MVHLEFxyqh0ObzkdCdPP&p=4&fvj=1&vjs=3",
+        "lat": 80.4953,
+        "long": -48.9714,
+        "imp": "Not found"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3839347,
+          43.6534817
+        ]
+      },
+      "properties": {
+        "title": "GIS & Space Planning Assistant",
+        "job_type": null,
+        "company": "York University",
+        "salary": "$16.50â€“$19.50 an hour",
+        "schedule": null,
+        "location": "Toronto, ON",
+        "date_posted": "Posted 30+ days ago",
+        "summary": "Reporting to the Director Planning & Renovations, this position will be responsible for working to develop GIS information standards.",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=da11289df8912c87&fccid=78311129365d34c7&vjs=3",
+        "lat": 43.6534817,
+        "long": -79.3839347,
+        "imp": "0.9230149417022804"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4927815,
+          43.451291
+        ]
+      },
+      "properties": {
+        "title": "GIS Technician",
+        "job_type": "Full-time",
+        "company": "City of Kitchener",
+        "salary": "$59,641â€“$74,550 a year",
+        "schedule": null,
+        "location": "Kitchener, ON",
+        "date_posted": "Posted 12 days ago",
+        "summary": "(Temporary Full for approximately 10 months). As a GIS Technician you will provide technical services required to support the operation and utilization of theâ€¦",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=3c80d4a43d795fca&fccid=810054bfc7640bcb&vjs=3",
+        "lat": 43.451291,
+        "long": -80.4927815,
+        "imp": "0.7258969333321534"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3839347,
+          43.6534817
+        ]
+      },
+      "properties": {
+        "title": "GIS Specialist",
+        "job_type": "Full-time, Part-time",
+        "company": "QSP Geographics Inc.",
+        "salary": null,
+        "schedule": "Monday to Friday+2",
+        "location": "Toronto, ON",
+        "date_posted": "EmployerActive 3 days ago",
+        "summary": "Use Safe Software's FME Workbench to transform data between different formats and systems. Are Customer-centric â€“ they understand and embrace the role ofâ€¦",
+        "apply_link": "https://ca.indeed.com//company/QSP-Geographics-Inc./jobs/GIS-Specialist-b696d9e91183586c?fccid=3faf0035ced81092&vjs=3",
+        "lat": 43.6534817,
+        "long": -79.3839347,
+        "imp": "0.9230149417022804"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3376825,
+          43.8563707
+        ]
+      },
+      "properties": {
+        "title": "Work Management Clerk",
+        "job_type": "Full-time",
+        "company": "Enbridge",
+        "salary": "$28.83â€“$34.59 an hour",
+        "schedule": null,
+        "location": "Markham, ON",
+        "date_posted": "Posted 3 days ago",
+        "summary": "Final candidates for this position may be required to undergo a security screening, including a criminal records check. Excellent keyboarding skills (45 wpm).",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=da6d3864eb4f8e01&fccid=221c64eea0d34f50&vjs=3",
+        "lat": 43.8563707,
+        "long": -79.3376825,
+        "imp": "0.6980440836451863"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9714,
+          80.4953
+        ]
+      },
+      "properties": {
+        "title": "Geological Exploration Data Specialist",
+        "job_type": null,
+        "company": "Frequency Geophysics Inc.",
+        "salary": "$30â€“$40 an hour",
+        "schedule": null,
+        "location": "Hybrid remote in Copper Cliff, ON",
+        "date_posted": "EmployerActive 4 days ago",
+        "summary": "Frequency Geophysics Inc. is seeking dependable individual for assistance with exploration data entry and configuration. Job Type: *Contract, 40 hrs / week.",
+        "apply_link": "https://ca.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0D8Y527XyQTdTDwhCdhZny-TYWpFJ0rArDvvjpb9ub4cmqi3yQXmIIiIN4qPFlnCzIamQ3ysWp4WTzN4ocV3v9iscJBrz98-BqWmw7FaXL8jBhV8v8DERxOyZRH136RWferFMD3ipkZhTAyqM-Z10E3VP5Um_q_SbZHZ4dturNeu8cf56Thm2r7N054uw8konobRv-OH849hSZVjTDpktga-QDMfmNgR6059DEJWjqsYl3-ukMTxJb35fsCIsxNaUHt_IZFpiBdNPZ9XV0JXBEvpLI-149qMEn7FE8qdS2TWnyUtYnqkspSYsiO-Q5xGh3WyBerrWJMXQgfcwRoBXaoz3FURe873yyEaqMnTM-dPMlMZyebu2MNwNtyuOXj0t7MXo-NAGS44TYclGlUSeJsHFNbzyKenUVqEfEQJF4MG2yhK4WP7jJidg-hM8u1mMdshsnB9B74mhD8pGz_TKXTSrwkXgDo8HGoGS5zR145upybnZfp8G1GWCxgCqu1KrY2CDrY8FS6DcJ4wd3Bh-kh&xkcb=SoCy-_M3MVHLEFxyqh0BbzkdCdPP&p=9&fvj=1&vjs=3",
+        "lat": 80.4953,
+        "long": -48.9714,
+        "imp": "Not found"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7966835,
+          43.3248924
+        ]
+      },
+      "properties": {
+        "title": "GIS Technician",
+        "job_type": "Full-time, Part-time",
+        "company": "Royal Botanical Gardens",
+        "salary": null,
+        "schedule": null,
+        "location": "Burlington, ON",
+        "date_posted": "Posted 9 days ago",
+        "summary": "The GIS Technician will also provide support and expertise in the development of the Cootes to Escarpment EcoPark Systemâ€™s GIS capabilities and meeting currentâ€¦",
+        "apply_link": "https://ca.indeed.com//rc/clk?jk=c83bb320b2613df5&fccid=40cfca800d6c3303&vjs=3",
+        "lat": 43.3248924,
+        "long": -79.7966835,
+        "imp": "0.7039223564113315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8925908,
+          43.0059455
+        ]
+      },
+      "properties": {
+        "title": "GIS Developer",
+        "job_type": "Full-time",
+        "company": "Matrix Solutions Inc.",
+        "salary": null,
+        "schedule": null,
+        "location": "Remote",
+        "date_posted": "EmployerActive 5 days ago",
+        "summary": "Collaborate with clients and subject matter experts throughout the organization to deliver digital solutions that drive meaningful outcomes for our clients andâ€¦",
+        "apply_link": "https://ca.indeed.com//company/Matrix-Solutions-Inc./jobs/GIS-Developer-80b4da50e6047d29?fccid=16b7b760774a1009&vjs=3",
+        "lat": 43.0059455,
+        "long": -123.8925908,
+        "imp": "0.39131173061162206"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.244153,
+          50.023071
+        ]
+      },
+      "properties": {
+        "title": "Land Worker",
+        "job_type": "Full-time, Part-time",
+        "company": "Wei Wai Kum First Nation",
+        "salary": null,
+        "schedule": "Monday to Friday",
+        "location": "Campbell River, BC",
+        "date_posted": "EmployerActive 3 days ago",
+        "summary": "OVERVIEW:* The Lands Worker is a full-time permanent position that will support the Lands department with multiple tasks including but not limited to leasingâ€¦",
+        "apply_link": "https://ca.indeed.com//pagead/clk?mo=r&ad=-6NYlbfkN0Aa5orhGDsp_tb31afbAOb0dEFD40WaHEnFZXecpkH4Od1VfzS4ox-3hkfBGUFMj7d8LgTlgFyBaShISqVtk0qz7IkEvr7ybV9j_lE3UhViCJj8eYnSkWOS_Guu401wKK-N8ktxpa1_UoeUFCX3FRvn3aUDCEoe8DLrUcjjD-00THITsLsD2V5yINT5561dCBEScqmNInio0d-tPg6VGtWonZBwgUT9hJTLjsK4v4Tb69BEZB6wHYTnC0CQNbX4yAvQqRRyScmf2n78zoxb5Q0G_2QGbEaFWuOh6n3lBsc8uhE3g1EpI5fU9AIjOEmfcMslc9SQZCqQ7Dub-UGgPSJkwcixcfrBxCu5CA5TkKszzCW5hLWiPO8xpaLupZBSuWNY-NzgITmoaftPV7mU3dOQ1OEehVz8q_KKuoja5IIAV-XvR1ErHuRwrtKLTAFoeW5bQhrFLpcmA1GDDmQbUzzNVs9d4YZ9djn6VGhkZM3G0oXqlB-n0J_F&xkcb=SoCh-_M3MVHLEFxyqh0FbzkdCdPP&p=13&fvj=1&vjs=3",
+        "lat": 50.023071,
+        "long": -125.244153,
+        "imp": "0.6471359580160563"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6901736,
+          44.3893113
+        ]
+      },
+      "properties": {
+        "title": "GIS Technologist",
+        "job_type": "Full-time",
+        "company": "Tatham Engineering",
+        "salary": null,
+        "schedule": "Monday to Friday+1",
+        "location": "Barrie, ON",
+        "date_posted": "EmployerActive 10 days ago",
+        "summary": "Assist with design calculations, report writing, project coordination and management, cost estimates, preparation of tender documents, specifications andâ€¦",
+        "apply_link": "https://ca.indeed.com//company/Envision--Tatham-Inc./jobs/Technologist-42c99ad6c81eeac2?fccid=4109e0f5728131c3&vjs=3",
+        "lat": 44.3893113,
+        "long": -79.6901736,
+        "imp": "0.7013409532635198"
+      }
+    }
+  ]
+}
