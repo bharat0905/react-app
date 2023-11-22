@@ -1,19 +1,15 @@
 import './App.css';
-import L, {  } from 'leaflet';
+import L, { } from 'leaflet';
 import "leaflet/dist/leaflet.css";
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { LayersControl, MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import jobdata from './tmp_data.json';
-// customize popup rest line 26.
-import { popupHead } from './popupstyle';
-// custom header will be used as tag in line 31
-// import DisplayTable from './Components/DisplayTable'
-import import_Data from './tmp_data.json';
 import { Table } from 'react-bootstrap';
 import Lottie from 'lottie-react';
 import animationdata from '../src/Components/assets/home_animation.json'
 // import Search from 'antd/es/input/Search';
-import {} from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInfo } from '@fortawesome/free-solid-svg-icons';
 
 
 // to add layer control 
@@ -28,131 +24,123 @@ L.Icon.Default.mergeOptions({
 
 function App() {
 
-  const search_div = ()=>{
-    const searchForm = document.querySelector('.search-form');
-    const searchInput = document.getElementsByClassName('search-input');
+  const mapRef = useRef(null);
+  var [setttmp] = useState();
+  const [loc, setloc] = useState([50.3, -60.3]);
 
-    console.log(searchForm)
-    console.log("hua dua lipa")
-    searchForm.classList.toggle('active-search');
-  }
-
-
-  // for home animation npm i littie-react
-  // https://www.youtube.com/watch?v=eBL4NQIXUhE
-
-const mapRef = useRef(null);
-const [search, setSearch] = useState('')
-var [setttmp] = useState();
-const [geojsonData] = useState(import_Data);
-const [loc, setloc] =useState([50.3,-60.3]);
-
-let tmp = (index) => () => {
+  let tmp = (index) => () => {
     var tmplat = Object.values(setttmp[index].props.children[3].props);
     var tmplong = Object.values(setttmp[index].props.children[4].props);
     var getlat = Object.values(tmplat)[1];
     var getlong = Object.values(tmplong)[1];
-    setloc([getlat,getlong])
+    setloc([getlat, getlong])
+  }
+  const fly = () => {
     // console.log(loc)
+    mapRef.current.flyTo(loc, 14);
   }
 
-const fly = ()=>{
-  // console.log(loc)
-  mapRef.current.flyTo(loc,14);
-}
+  // expand-icon
+  const [expanded, setExpanded] = useState(false);
+  const toggleExpand = () => { setExpanded(!expanded);};
+
+  // custom popup
+  useEffect(() => {
+    // Simulate opening the popup after a delay
+    setTimeout(() => {
+      const popup = document.querySelector('.custom-popup');
+      if (popup) {
+        popup.classList.add('open');
+      }
+    }, 1000);
+  }, []);
+
+
+
 
   return (<>
-
-    <div className='right_container'>
-    <a href="https://www.google.ca">
-      <div className='home'>
-        <Lottie animationData={animationdata} style={{height:'100%'}}/>
-      </div>
-    </a>
-
-
-    <div>
-    <form action='' className='search-form'>
-      <input type='text' placeholder='type to search' className='search-input'/>
-        <div className='search-button'  onClick={search_div}>
-          <i className='fa-solid'></i>
-          <i className='fa-solid fa-magnifying-glass search-icon'></i>
-          <i className='fa-solid fa-xmark search-close'></i>
+    <div className='container'>
+      <div className='sticky-strip'>
+        <div className='home'>
+          <a href="https://bharat0905.github.io/resume/"><Lottie animationData={animationdata} /></a>
         </div>
-    </form>
-    </div>
+      </div>
 
-    {/* <div onChange={(e) => setSearch(e.target.value)} style={{ textAlign: 'center',border:'20px'} }>
-        <input type="text" name="search" placeholder='Search .....' />
-    </div> */}
-    <br></br>
-      <div className='container_table'>
-        <Table style={{ width: '100%', cursor: 'pointer' }} id='table'>
-          <thead>
-            <tr style={{ position: 'sticky', top: '0px' }}>
-              <th style={{ width: '20%' }}>Title</th>
-              <th style={{ width: '15%' }}>Type</th>
-              <th style={{ width: '10%' }}>Company</th>
-            </tr>
-          </thead>
-          <tbody>
-            {setttmp =
-              geojsonData.features.filter((feature) => { return search.toLowerCase() === '' ? feature : feature.properties.title.toLowerCase().includes(search) || feature.properties.company.toLowerCase().includes(search); })
-                .map((feature, index) => {
-                  // trying to save lat long
-                  return (
-                    <tr key={index} id='table_row' onClick={tmp(index)}>
-                      <td id='fly' onClick={fly}>{feature.properties.title}</td>
-                      <td>{feature.properties.job_type}</td>
-                      <td>{feature.properties.company}</td>
-                      <td style={{ display: 'none' }}>{feature.properties.lat}</td>
-                      <td style={{ display: 'none' }}>{feature.properties.long}</td>
-                    </tr>
+      <div className='right_container'>
+        <div className='container_table'>
+          <Table style={{ cursor: 'pointer' }} id='table'>
+            <thead>
+              <tr style={{ position: 'sticky', top: '0px' }}>
+                <th>Title</th>
+                <th>Company</th>
+              </tr>
+            </thead>
+            <tbody>
+              {setttmp =
+                jobdata.features.map((feature, index) => {
+                    return (
+                      <tr key={index} id='table_row' onClick={tmp(index)}>
+                        <td id='fly' onClick={fly}>{feature.properties.title}</td>
+                        <td>{feature.properties.company}</td>
+                        <td style={{ display: 'none' }}>{feature.properties.job_type}</td>
+                        <td style={{ display: 'none' }}>{feature.properties.lat}</td>
+                        <td style={{ display: 'none' }}>{feature.properties.long}</td>
+                      </tr>
+                    )
+                  }
                   )
-                }
-                )
-            }
-          </tbody>
-        </Table>
+              }
+            </tbody>
+          </Table>
+        </div>
+        <div className='expand-icon' onClick={toggleExpand}>
+          <FontAwesomeIcon icon={faInfo}/>
+          {expanded && (<div className='expanded'><p>Above list is based on web scrapper that got the job list off google search engine. The script to fetch the list can be automated to run everyday but that's out of scope for this project. The current list was generated on Aug 2023.</p></div>)}
+        </div>
+        
       </div>
-      <div style={{ fontSize: '30px', padding: '20px 20px', textAlign: 'center' }}>About
+
+      <div className='left_container'>
+        <MapContainer ref={mapRef} center={[51.2630909215123, -105.98819848532109]} zoom={4} zoomControl={false} style={{ height: "100vh", width: "100%" }}>
+          <LayersControl position='bottomright'>
+            <BaseLayer checked name='OpenStreetMap'>
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
+            </BaseLayer>
+            <BaseLayer name="DarkMap">
+              <TileLayer url="http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png" />
+            </BaseLayer>
+            <BaseLayer name="NASA Gibs Blue Marble">
+              <TileLayer url="https://gibs-{s}.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default//EPSG3857_500m/{z}/{y}/{x}.jpeg" attribution="&copy; NASA Blue Marble, image service by OpenGeo" maxNativeZoom={8} />
+            </BaseLayer>
+            <BaseLayer name="OSM-Dark">
+              <TileLayer url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' className='map-tiles' />
+            </BaseLayer>
+            <BaseLayer  name='Stadia Maps'>
+              <TileLayer url='https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png' maxZoom={20} minZoom={3} attribution='© Stadia Maps, © OpenMapTiles © OpenStreetMap contributors' />
+            </BaseLayer>
+          </LayersControl>
+          {/* <HandleClickMap/> */}
+
+          {jobdata.features.map((jlist, index) => (
+            <Marker key={index} position={[jlist.properties.lat, jlist.properties.long]}>
+              <Popup className='custom-popup'>
+                <div className="popup-content">
+                  <div className='popup-head'>{jlist.properties.title}</div>
+                    <div>
+                      <p>{"Type : " + jlist.properties.job_type}</p>
+                      <p>{"Company : " + jlist.properties.company}</p>
+                      <p>Apply <a href={jlist.properties.apply_link}>here</a></p>
+                    </div>
+                 </div> 
+              </Popup>
+            </Marker>
+          ))}
+        </MapContainer>
       </div>
-    </div>
-
-    <div className='left_container'>
-      <MapContainer ref={mapRef} center={[43.0059455,-123.8925908]} zoom={2} style={{ height: "100vh", width: "100%" }}>
-        <LayersControl position='bottomleft'>
-          <BaseLayer name='OpenStreetMap'>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' />
-          </BaseLayer>
-          <BaseLayer name="NASA Gibs Blue Marble">
-            <TileLayer url="https://gibs-{s}.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default//EPSG3857_500m/{z}/{y}/{x}.jpeg" attribution="&copy; NASA Blue Marble, image service by OpenGeo" maxNativeZoom={8} />
-          </BaseLayer>
-          <BaseLayer checked name="OSM-Dark">
-            <TileLayer url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png" attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' className='map-tiles' />
-          </BaseLayer>
-        </LayersControl>
-        {/* <HandleClickMap/> */}
-
-        {jobdata.features.map((jlist, index) => (
-          <Marker key={index} position={[jlist.properties.lat, jlist.properties.long]}>
-            <Popup position={[jlist.properties.lat, jlist.properties.long]}>
-              <div style={popupHead}>{jlist.properties.title}</div>
-              <div>
-                {/* <h2>{jlist.properties.title}</h2> */}
-                <p>{"Type : " + jlist.properties.job_type}</p>
-                <p>{"Company : " + jlist.properties.company}</p>
-                <p>{"Posted : " + jlist.properties.date_posted}</p>
-                <p>Apply <a href={jlist.properties.apply_link}>here</a></p>
-              </div>
-            </Popup>
-          </Marker>
-        ))}
-      </MapContainer>
     </div>
   </>)
 
-  
+
 };
 
 export default App;
