@@ -214,12 +214,6 @@
   background-color: lightgray;
 
 }
-
-/* to color every second row 
-/* .container_table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-} */ */
-
 /* to color last row in the table */
 .container_table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
